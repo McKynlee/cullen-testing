@@ -29,7 +29,9 @@ test('should add two negative numbers', () => {
 });
 
 test('should fail if only given one argument', () => {
-
+  expect(() => {
+    sum(83);
+  }).toThrow('Must provide a second argument!')
 });
 
 test('should convert number strings to numbers ex: ("9" + "3")', () => {
