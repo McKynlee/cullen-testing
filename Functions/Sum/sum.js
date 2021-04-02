@@ -7,7 +7,6 @@ function sum(numberOne, numberTwo) {
   else {
     return Number(numberOne) + Number(numberTwo);
   }
-
 }
 
 module.exports = sum;  // node export format
